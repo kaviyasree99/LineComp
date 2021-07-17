@@ -11,5 +11,8 @@ public class linecompare {
 	            	System.out.println("x2-x1 equals y2-y1");
 	            else
 	            	System.out.println("x2-x1 not equals y2-y1");
+	            String str1 = "x2-x1";
+	            String str2 = "y2-y1";
+	            System.out.println(str1.compareTo(str2));
 	}
 }
